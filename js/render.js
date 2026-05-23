@@ -3,7 +3,7 @@ function renderizarRutas(lista) {
     const contenedorRutas = document.getElementById("contenedorRutas");
     contenedorRutas.innerHTML = "";
 
-    lista.forEach(ruta => {
+    lista.map(ruta => {
         const tarjeta = document.createElement("div");
         tarjeta.classList.add("tarjeta");
         tarjeta.innerHTML = `
