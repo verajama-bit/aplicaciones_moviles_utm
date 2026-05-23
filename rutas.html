@@ -21,6 +21,24 @@
 
                 <h2>Buscar y Filtrar</h2>
 
+                <label for="buscarDestino">Destino</label>
+                <input 
+                    type="text" 
+                    id="buscarDestino"
+                    placeholder="Buscar por destino..."
+                >
+
+                <label for="filtroTipo">Tipo</label>
+                <select id="filtroTipo">
+                    <option value="">Todos los tipos</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Expreso">Expreso</option>
+                </select>
+
+                <button id="btnFiltrar">Aplicar filtros</button>
+
+                <div id="mensajeFiltro"></div>
+
                 <!-- BUSCADOR -->
                 <input 
                     type="text" 
